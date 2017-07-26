@@ -92,7 +92,7 @@
 		6F8E64FA7289F9703EF21D0C /* Pods-DeviceLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceLayout_Example/Pods-DeviceLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACE1683887664BA04136F700 /* Pods-DeviceLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceLayout_Tests/Pods-DeviceLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA7A6775BD6A986F757C6A69 /* Pods-DeviceLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceLayout_Tests/Pods-DeviceLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BBCC4B84872CCCF3DB3DF669 /* DeviceLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DeviceLayout.podspec; path = ../DeviceLayout.podspec; sourceTree = "<group>"; };
+		BBCC4B84872CCCF3DB3DF669 /* DeviceLayoutSCC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DeviceLayoutSCC.podspec; path = ../DeviceLayoutSCC.podspec; sourceTree = "<group>"; };
 		C2E45E3096D8AA24D3369AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C64550C7CDABD16C5B23AAB2 /* Pods_DeviceLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78F7BF1CA5ED45E9CB437BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				BBCC4B84872CCCF3DB3DF669 /* DeviceLayout.podspec */,
+				BBCC4B84872CCCF3DB3DF669 /* DeviceLayoutSCC.podspec */,
 				E78F7BF1CA5ED45E9CB437BA /* README.md */,
 				C2E45E3096D8AA24D3369AAD /* LICENSE */,
 			);
@@ -450,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		39ECB93BD1C2D9CF9D7F4C31 /* [CP] Embed Pods Frameworks */ = {
@@ -524,7 +524,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F6C33B409CEFB286EE5BAB7B /* [CP] Copy Pods Resources */ = {
@@ -885,6 +885,7 @@
 				4C9E57771EC4CD1400E7EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C9E577C1EC4CD1400E7EE70 /* Build configuration list for PBXNativeTarget "DeviceLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -893,6 +894,7 @@
 				4C9E57791EC4CD1400E7EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "DeviceLayout" */ = {
 			isa = XCConfigurationList;

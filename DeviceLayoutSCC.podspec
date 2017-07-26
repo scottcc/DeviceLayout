@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DeviceLayout'
-  s.version          = '0.1.3'
+  s.name             = 'DeviceLayoutSCC'
+  s.version          = '0.1.4'
   s.summary          = 'Auto Layout can be set differently for each device.'
 
 # This description is used to generate tags and improve search results.
@@ -17,18 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Auto Layout can be set differently for each device. use IBInspectable'
+  s.description      = 'Auto Layout can be set differently for each device. use IBInspectable. SCC added updated 10.5 and 12.9 iPads.'
   s.homepage         = 'https://github.com/cruisediary/DeviceLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cruisediary' => 'cruzdiary@gmail.com' }
-  s.source           = { :git => 'https://github.com/cruisediary/DeviceLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/scottcc/DeviceLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Sources/**/*'
-  s.dependency 'Device', '~> 2.0.0'
+  s.dependency 'DeviceSCC', '~> 3.0.2'
   # s.resource_bundles = {
   #   'DeviceLayout' => ['DeviceLayout/Assets/*.png']
   # }

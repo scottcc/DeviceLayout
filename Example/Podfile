@@ -1,13 +1,13 @@
 use_frameworks!
 
 target 'DeviceLayout_Example' do
-  pod 'DeviceLayout', :path => '../'
+  pod 'DeviceLayoutSCC', :path => '../'
 
   target 'DeviceLayout_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0'
-    pod 'DeviceLayout', :path => '../'
+    pod 'DeviceLayoutSCC', :path => '../'
   pod 'Nimble', '~> 5.0'
   pod 'FBSnapshotTestCase'
   pod 'Nimble-Snapshots'

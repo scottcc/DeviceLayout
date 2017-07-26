@@ -1,7 +1,7 @@
 PODS:
-  - Device (2.0.0)
-  - DeviceLayout (0.1.2):
-    - Device (~> 2.0.0)
+  - DeviceLayoutSCC (0.1.5):
+    - DeviceSCC (~> 3.0.2)
+  - DeviceSCC (3.0.2)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -14,27 +14,27 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
-  - Quick (1.0.0)
+  - Quick (1.1.0)
 
 DEPENDENCIES:
-  - DeviceLayout (from `../`)
+  - DeviceLayoutSCC (from `../`)
   - FBSnapshotTestCase
   - Nimble (~> 5.0)
   - Nimble-Snapshots
   - Quick (~> 1.0)
 
 EXTERNAL SOURCES:
-  DeviceLayout:
-    :path: "../"
+  DeviceLayoutSCC:
+    :path: ../
 
 SPEC CHECKSUMS:
-  Device: d18c6b7f5c38f3be11dd05c4f24a091bb7061b36
-  DeviceLayout: 56535c1e30e23b1a84643cbb3daf5dc6f1d6893d
-  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  DeviceLayoutSCC: 8d0aff7319560520b77eb0580732563440c1f7d3
+  DeviceSCC: 71e97b49fd85d80f9d5177aa517c1f97e17894e1
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
-  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
 
-PODFILE CHECKSUM: 2d5ad51aeb98b52d771e5bda79717c42fe49fc7a
+PODFILE CHECKSUM: 18ed1f8fe398af465bb544f99c1f859661d82469
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.1.1
