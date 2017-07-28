@@ -1,7 +1,7 @@
 PODS:
+  - Device (3.0.2)
   - DeviceLayoutSCC (0.1.5):
-    - DeviceSCC (~> 3.0.2)
-  - DeviceSCC (3.0.2)
+    - Device (~> 3.0.2)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -28,8 +28,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DeviceLayoutSCC: 8d0aff7319560520b77eb0580732563440c1f7d3
-  DeviceSCC: 71e97b49fd85d80f9d5177aa517c1f97e17894e1
+  Device: 746d3457c67e6d7227c8c7945978314d06900437
+  DeviceLayoutSCC: 52b8b6ea1cc7050bdacdfac25652384ad540791b
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2

@@ -8,7 +8,7 @@
 
 import UIKit
 
-import DeviceSCC
+import Device
 
 class DeviceLayoutConstraint: NSLayoutConstraint {
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DeviceLayoutSCC'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Auto Layout can be set differently for each device.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Sources/**/*'
-  s.dependency 'DeviceSCC', '~> 3.0.2'
+  s.dependency 'Device', '~> 3.0.2'
   # s.resource_bundles = {
   #   'DeviceLayout' => ['DeviceLayout/Assets/*.png']
   # }
